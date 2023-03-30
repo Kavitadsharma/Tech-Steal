@@ -6,6 +6,9 @@
     background-color: rgb(7, 37, 128);
     
 }
+a{
+  text-decoration: none;
+}
 #logo{
   width: 20%;
   height: 50px;
@@ -42,7 +45,7 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   
     cursor: pointer;
-   
+    transition: transform 0.4s;
     
 
 }
@@ -110,14 +113,19 @@
   width:100%;
   display:flex;
   margin-top: 20px;
+
  }
  #next>div{
   width:40%;
   height:300px;
-  margin:auto
+  margin:auto;
+  transition: transform 0.4s;
+ }
+ #next>div:hover{
+  transform: scale(0.8);
  }
  #next>div>img{
-  width:90%;
+  width:600px;
   height:300px
 
  }
@@ -142,7 +150,12 @@ height: 340px;
 /* border: 2px solid blue; */
 margin: auto;
 border-radius:10px;
-background-color: blue;
+background-color: rgb(31, 106, 255);
+text-align: center;
+transition: transform 0.4s;
+}
+#pic>div:hover{
+  transform: scale(0.8);
 }
 
  #pic>div>img{
@@ -187,9 +200,14 @@ height: 220px;
 /* border: 2px solid blue; */
 margin: auto;
 border-radius:10px;
-background-color: rgb(233, 233, 245);
+background-color:white;
+box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 text-align: center;
+transition: transform 0.4s;
 
+}
+#nexttwo>div:hover{
+  transform: scale(0.8);
 }
 #nexttwo>div>img{
   width: 130px;
@@ -234,7 +252,11 @@ border-radius:10px;
 border: 1px solid black;
 
 text-align: center;
+transition: transform 0.4s;
 
+ }
+ #tc>div:hover{
+  transform: scale(0.8)
  }
  #tc>div>img{
   width: 330px;
@@ -280,6 +302,10 @@ border-radius:10px;
   #sec>div{
     width:280px;
     height:320px;
+    transition: transform 0.4s;
+  }
+  #sec>div:hover{
+    transform: scale(0.8)
   }
   #sec>div>img{
     width:250px;
@@ -306,6 +332,10 @@ margin-top: 40px;
   #enjoy1>div{
     width:400px;
     height:450px;
+    transition: transform 0.4s;
+  }
+  #enjoy1>div:hover{
+    transform: scale(0.8)
   }
   #enjoy1>div>img{
     width:350px;
@@ -335,6 +365,10 @@ margin-top: 40px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-align: center;
   border-radius: 20px;
+  transition: transform 0.4s;
+}
+#best>div:hover{
+  transform: scale(0.8)
 }
 #best>div>img{
   width:230px;
@@ -390,7 +424,11 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0p
 border-radius:10px;
 
 text-align: center;
+transition: transform 0.4s;
 
+}
+#recom>div:hover{
+  transform: scale(0.8)
 }
 #recom>div>img{
   width: 100px;
