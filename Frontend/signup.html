@@ -6,23 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="./style/signup.css">
 </head>
 <body>
     <div id="register">
         <img src="./images/Black & White Minimalist Business Logo (2).png"/>
-        <h4>Login/Register</h4>
+        <h4>Register</h4>
+        <p>First Name</p>
+        <input id="firstname" type="text" placeholder=" UserName"/>
+        <p>Last Name</p>
+        <input id="lastname" type="text" placeholder=" UserName"/>
+        <p>User Name</p>
+        <input id="username" type="text" placeholder=" UserName"/>
          <p>Email</p>
         <input id="email" type="text" placeholder="Email-Id" />
-        <p>User Name</p>
-        <input id="name" type="text" placeholder=" UserName"/>
         <p>Password</p>
-        <input id="password" type="password" placeholder="Password"/>
-        <div id="register-button">
-            <button>Continue</button>
-        </div>
-       
+        <input id="pass" type="password" placeholder="Password"/>
+        <div>
+        <button onclick="onSignup()">sign up</button> 
+    </div>
     </div>
 </body>
-   <script src="./register.js"></script>
+   <script src="./script/signup.js"></script>
 </html>

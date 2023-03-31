@@ -1,28 +1,32 @@
-#register{
+#login{
     margin: auto;
     width: 50%;
     border: 3px solid green;
     padding: 10px;    
 }
 
-#register>img{
+#login>img{
 width:50px;
 height:50px
 }
-#register-button{
+#login-button{
 margin-top: 10px;
 }
-#register>input{
+#login>input{
 height:30px;
 width:80%
 }
 
-button{
+#login-button>button{
 height:40px;
 width:80px;
 background-color:rgb(249, 165, 8);
 border-radius: 10px;
 }
-#register>div{
-    margin-top: 20px;
+#register-page{
+display: flex;
+
+}
+#register-page>div{
+margin:10px
 }

@@ -1,0 +1,14 @@
+#additem>img{
+    height:50px;
+    width:40px
+}
+#additem{
+    margin: auto;
+    width: 30%;
+    border: 3px solid green;
+    padding: 10px;    
+}
+#additem>input{
+    width:80%;
+    height:30px
+}

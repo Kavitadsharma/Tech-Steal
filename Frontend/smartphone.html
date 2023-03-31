@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/smartphone.css">
+</head>
+<body>
+    <div id="nav">
+        <div id="logo">
+            <div id="logoimg">
+               <a href="index.html"><img src="./images/Black & White Minimalist Business Logo (2).png" alt=""></a>
+             </div>
+        </div>
+        <div id="navbottom">
+        <div id="dropdown">
+            <a href="./index.html"><B>All Category</B></a>
+              
+              <div id="dropdown-content">
+                <p>Girls Fashion</p>
+                <p>Boys Fashion</p>
+                <p>Diapers</p>
+                <p>Footwear</p>
+                <p>Toys</p>
+                <p>Gear</p>
+                <p>Feeding</p>
+                <p>Bath</p>
+              </div>
+            </div>
+            <div id="dropdown"><a  href="./tablet.html"><b>TABLET</b></a></div>
+            <div id="dropdown"><a  href="./smartphone.html"><b>SMART PHONES</b></a></div>
+            <div id="dropdown"><a  href="index.html"><b> Deals</b></a></div>
+            <div id="dropdown"><a  href="market.html"><b>Coupan</b></a></div>
+         </div>
+       
+         <div id="bar">
+             
+                 <button id="login"><a href="login.html"> <b>LOGIN </b> </a> </button>
+               <button id="signup"><a href="./signup.html"> <b> SIGN UP </b></a> </button>
+           
+            </div>
+            </div>
+            <div id="show-data">
+                <div id="filter">
+                  <p>Filter by price</p>
+          
+                  <form >
+                    <input onClick="sortlh()" type="checkbox" id="lh" name="vehicle1" value="low to high">
+                    <label for="Low to high">Price from low to high </label><br>
+                    <input onClick="sorthl()" type="checkbox" id="hl" name="vehicle2" value="high to low">
+                    <label for="High to low">Price from high to low</label><br>
+                    <hr>
+                   
+                    
+                  </form>
+                  <div>
+                    <input id="search" placeholder="Search by name" type="text"/>
+                  </div>
+                  
+                   
+                </div>
+                <div id="all-product"></div>
+            </div>
+    
+</body>
+</html>
+<script src="./script/smartphone.js"></script>
