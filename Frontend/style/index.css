@@ -3,7 +3,7 @@
     height: 120px;
     /* border: 3px solid black; */
     display: flex;
-    background-color: rgb(7, 37, 128);
+    background-color: rgb(180, 5, 110);
     
 }
 a{
@@ -41,7 +41,7 @@ a{
     align-items: center;
     text-align: center;
     font-size: 15px;
-    background-color:rgb(7, 37, 128);
+    background-color: rgb(180, 5, 110);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   
     cursor: pointer;
@@ -55,7 +55,7 @@ a{
     text-align: center;
     font-size: 15px;
     cursor: pointer;
- background-color:rgb(7, 37, 128);
+ background-color: rgb(180, 5, 110);
  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
     
@@ -71,7 +71,7 @@ a{
     justify-content: space-evenly;
     margin-top: 40px;
     margin-right:20px;
-    background-color:rgb(7, 37, 128);
+    background-color: rgb(180, 5, 110);
     
     
  }
@@ -92,8 +92,8 @@ a{
    background-color: #f9f9f9;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   padding: 12px 16px;
-   margin-top: 100px;
+   padding: 10px 16px;
+   margin-top: 20px;
    text-align: center;
    z-index: 1;
  }
@@ -150,7 +150,7 @@ height: 340px;
 /* border: 2px solid blue; */
 margin: auto;
 border-radius:10px;
-background-color: rgb(31, 106, 255);
+background-color:  rgb(180, 5, 110);
 text-align: center;
 transition: transform 0.4s;
 }
@@ -449,7 +449,7 @@ border-radius:10px;
   /* border: 5px solid blue; */
   display: flex;
   color: white;
-  background-color: rgb(15,52,108); 
+  background-color:  rgb(180, 5, 110); 
   justify-content: space-between;
 }
 .fcard{
@@ -469,7 +469,7 @@ border-radius:10px;
   height: 350px;
   /* border: 2px solid pink; */
   margin: auto;
- background-color: rgb(15,52,108); 
+ background-color: rgb(180, 5, 110) ; 
 }
 .theendcard{
 width: 600px;
