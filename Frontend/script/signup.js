@@ -6,7 +6,7 @@ const onSignup=()=>{
         email:document.getElementById("email").value,
         pass:document.getElementById("pass").value
     }
-    fetch("http://localhost:4500/users/register",{
+    fetch("https://teal-gifted-gosling.cyclic.app/users/register",{
         method:"POST",
         headers:{
             "content-type":"application/json"

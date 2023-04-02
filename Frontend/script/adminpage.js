@@ -1,4 +1,4 @@
-fetch("http://localhost:4500/product/all")
+fetch("https://teal-gifted-gosling.cyclic.app/product/all")
 .then(res=>res.json())
 .then(res=>{
     renderProduct(res)
@@ -31,7 +31,7 @@ function renderProduct(data){
 }
 
 function dellete(id){
-    fetch(`http://localhost:4500/product/delete/${id}`,{
+    fetch(`https://teal-gifted-gosling.cyclic.app/product/delete/${id}`,{
         method:"PUT"
     })
     .then(res=>res.json())

@@ -16,7 +16,7 @@ submit_btn.addEventListener("click",(event)=>{
 async function addProduct(obj){
     try {
         console.log(obj)
-       let adding_rqst=await fetch("http://localhost:4500/product/add",{
+       let adding_rqst=await fetch("https://teal-gifted-gosling.cyclic.app/product/add",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"

@@ -1,6 +1,6 @@
 let data=[]
 
-fetch("http://localhost:4500/product/all")
+fetch("https://teal-gifted-gosling.cyclic.app/product/all")
     .then(res=>res.json())
     .then(res=>{
         data=res

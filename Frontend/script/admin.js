@@ -17,7 +17,7 @@ submit_btn.addEventListener("click",(event)=>{
 })
 
  function loginUser(obj){
-    fetch("http://localhost:4500/users/login",{
+    fetch("https://teal-gifted-gosling.cyclic.app/users/login",{
         method:"POST",
         headers:{
             "Content-Type":"application/json"
