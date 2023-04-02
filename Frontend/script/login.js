@@ -5,7 +5,7 @@ const onlogin=()=>{
         email:document.getElementById("email").value,
         pass:document.getElementById("pass").value
     }
-    fetch("http://localhost:4500/user/login",{
+    fetch("http://localhost:4500/users/login",{
         method:"POST",
         headers:{
             "content-type":"application/json"
