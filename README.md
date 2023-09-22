@@ -10,4 +10,12 @@ Database: MongoDB
 
 API https://teal-gifted-gosling.cyclic.app/product/all
 <h1>Tech Steal</h1>
+
+
 ![1](https://github.com/Kavitadsharma/Tech-Steal/assets/115460412/c1781308-1281-487e-8dc9-d8d69241ab5d)
+
+<h1>Login</h1>
+![1](https://github.com/Kavitadsharma/Tech-Steal/assets/115460412/6851ec00-c822-46bf-baae-a419940825ec)
+<h1>Signup</h1>
+![2](https://github.com/Kavitadsharma/Tech-Steal/assets/115460412/9511cbf0-32cc-4ae9-ba1e-0e961cf9cf62)
+
