@@ -8,7 +8,7 @@ Backend: Node.js, Express.js
 Database: MongoDB
 
 
-API https://teal-gifted-gosling.cyclic.app/product/all
+API https://tech-steal.onrender.com/product/all
 <h1>Tech Steal</h1>
 
 
